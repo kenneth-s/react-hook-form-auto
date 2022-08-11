@@ -51,9 +51,11 @@ export const AutofieldContainer = (props) => {
   } else {
     if (!skinElement.skipRegister) {
       const registerProps = register(name, rules)
-      baseProps.onBlur = registerProps.onBlur
-      baseProps.onChange = registerProps.onChange
-      baseProps.inputRef = registerProps.ref
+      if (registerProps) {
+        baseProps.onBlur = registerProps.onBlur
+        baseProps.onChange = registerProps.onChange
+        baseProps.inputRef = registerProps.ref
+      }
     }
   }
 
