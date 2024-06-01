@@ -1,13 +1,11 @@
 import 'jsdom-global/register'
 import React from 'react'
-import renderer from 'react-test-renderer'
 import { mount } from 'enzyme'
 
-import config from './utils/enzymeConfig'
+import './utils/enzymeConfig'
 import {
   createSchema,
   Autoform,
-  InputWrap,
   FieldPropsOverride
 } from '../src/index'
 import { changeInput } from './utils/changeField'
