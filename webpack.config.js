@@ -1,5 +1,4 @@
 const path = require('path')
-const { NODE_ENV } = process.env
 const { merge } = require('webpack-merge')
 const package = require('./package.json')
 

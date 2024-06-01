@@ -108,6 +108,7 @@ export const Autofield = (props) => {
     >
       <$component
         {...componentProps}
+        key={componentProps.key}
       />
     </$wrapper>
   )
