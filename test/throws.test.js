@@ -3,7 +3,7 @@ import React from 'react'
 import { shallow, mount } from 'enzyme'
 import { act } from 'react-dom/test-utils'
 
-import config from './utils/enzymeConfig'
+import './utils/enzymeConfig'
 import { ErrorBoundary, consoleMock } from './utils/ErrorBoundary'
 import {
   createSchema,

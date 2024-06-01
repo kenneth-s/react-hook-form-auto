@@ -1,7 +1,7 @@
 import 'jsdom-global/register'
 import { useRef } from 'react'
 import { mount } from 'enzyme'
-import config from './utils/enzymeConfig'
+import './utils/enzymeConfig'
 import { changeInput } from './utils/changeField'
 import { act } from 'react-dom/test-utils'
 

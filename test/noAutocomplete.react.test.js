@@ -2,7 +2,7 @@ import 'jsdom-global/register'
 import React from 'react'
 import { mount } from 'enzyme'
 
-import config from './utils/enzymeConfig'
+import './utils/enzymeConfig'
 import { createSchema } from '../src/index'
 
 import { Autoform } from './utils/buttonHack'
